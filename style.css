@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.toolbar {
+    display: flex;
+    width: 375px;
+    height: 48px;
+    background-color: #3C3A39;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.hambergur-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 9px;
+    cursor: pointer;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    margin: 10px 10px 10px 10px;
+    font-size: 18px;
+    line-height: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.main-content {
+    display: flex;
+    width: 375px;
+    height: 600px;
+    background-color: black;
+}
+
+.text-content {}
+
+.heading-1 {
+    color: #FF6B00;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 54px;
+    letter-spacing: 0.37px;
+    padding-top: 60px;
+}
+
+.heading-2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: -20px 0px 0px 0px;
+}
+
+.paragraph {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.text-content {
+    margin: 26px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 200px;
+    height: 40px;
+    list-style-type: none;
+}
+
+.social {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.bg-img {
+    position: absolute;
+    flex-direction: row;
+    align-items: center;
+    padding: 243px;
+    margin-top: 58px;
+}
