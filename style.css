@@ -38,7 +38,7 @@
 }
 
 .heading-1 {
-  color: #FF6B00;
+  color: #ff6b00;
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
@@ -51,7 +51,7 @@
 .heading-2 {
   color: white;
   font-family: 'Roboto', sans-serif;
-  margin: -20px 0px 0px 0px;
+  margin: -20px 0 0 0;
 }
 
 .paragraph {
