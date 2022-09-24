@@ -5,360 +5,356 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .toolbar {
-    display: flex;
-    width: 375px;
-    height: 48px;
-    background-color: #3c3a39;
-    justify-content: space-between;
-    margin: auto auto;
+  display: flex;
+  width: 375px;
+  height: 48px;
+  background-color: #3c3a39;
+  justify-content: space-between;
+  margin: auto auto;
 }
 
 .hambergur-button {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 9px;
-    cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 9px;
+  cursor: pointer;
 }
 
 .logo {
-    text-decoration: none;
-    color: white;
-    margin: 10px 10px 10px 10px;
-    font-size: 18px;
-    line-height: 24px;
-    font-family: 'Roboto', sans-serif;
-    padding: 4px;
-    cursor: pointer;
-    font-weight: 700;
+  text-decoration: none;
+  color: white;
+  margin: 10px 10px 10px 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: 'Roboto', sans-serif;
+  padding: 4px;
+  cursor: pointer;
+  font-weight: 700;
 }
 
 .main-content {
-    display: flex;
-    width: 375px;
-    height: 600px;
-    background-color: black;
-    margin: auto auto;
+  display: flex;
+  width: 375px;
+  height: 600px;
+  background-color: black;
+  margin: auto auto;
 }
 
 .heading-1 {
-    color: #ff6b00;
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 46px;
-    line-height: 54px;
-    letter-spacing: 0.37px;
-    padding-top: 60px;
+  color: #ff6b00;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 54px;
+  letter-spacing: 0.37px;
+  padding-top: 60px;
 }
 
 .heading-2 {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    margin: -20px 0 0 0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin: -20px 0 0 0;
 }
 
 .paragraph {
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
 }
 
 .text-content {
-    margin: 26px;
+  margin: 26px;
 }
 
 .social-links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0;
-    width: 200px;
-    height: 40px;
-    list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  width: 200px;
+  height: 40px;
+  list-style-type: none;
 }
 
 .social {
-    padding: 10px;
-    cursor: pointer;
+  padding: 10px;
+  cursor: pointer;
 }
 
 .bg-img {
-    position: absolute;
-    flex-direction: row;
-    align-items: center;
-    padding: 243px;
-    margin-top: 58px;
+  position: absolute;
+  flex-direction: row;
+  align-items: center;
+  padding: 243px;
+  margin-top: 58px;
 }
 
 .main-content-2 {
-    display: flex;
-    width: 375px;
-    height: 600px;
-    background-color: rgb(255, 255, 255);
-    margin: auto auto;
-    justify-content: space-between;
+  display: flex;
+  width: 375px;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  margin: auto auto;
+  justify-content: space-between;
 }
 
 .heading-3 {
-    color: black;
-    margin-left: 25px;
-    margin-top: 30px;
+  color: black;
+  margin-left: 25px;
+  margin-top: 30px;
 }
 
 .h-2 {
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Crete Round', serif;
-    font-size: 42px;
-    font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Crete Round', serif;
+  font-size: 42px;
+  font-weight: 400;
 }
 
 .project-2 {
-    position: absolute;
-    padding: 20px;
-    margin-top: 214px;
+  position: absolute;
+  padding: 20px;
+  margin-top: 214px;
 }
 
 .heading-4 {
-    font-family: 'Crete Round', serif;
-    font-weight: 400;
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
 }
 
 .paragraph-2 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    color: #091e42;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  color: #091e42;
 }
 
 .button-1 {
-    color: black;
-    background-color: white;
-    border: 1px solid;
-    padding: 10px 17px;
-    cursor: pointer;
-    border-color: #8993a4;
-    display: inline-block;
-    text-decoration: none;
+  color: black;
+  background-color: white;
+  border: 1px solid;
+  padding: 10px 17px;
+  cursor: pointer;
+  border-color: #8993a4;
+  display: inline-block;
+  text-decoration: none;
 }
 
 .see-project {
-    border: none;
-    padding: 15px 20px;
-    margin-top: 15px;
-    background-color: #ff6b00;
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
+  border: none;
+  padding: 15px 20px;
+  margin-top: 15px;
+  background-color: #ff6b00;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .main-content-3 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 375px;
-    height: 450px;
-    background-color: rgb(251, 251, 251);
-    margin: auto auto;
-    margin-top: 214px;
-    background-image: url("img/bg-image.png");
-    background-repeat: no-repeat;
-    background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 375px;
+  height: 450px;
+  background-color: rgb(251, 251, 251);
+  margin: auto auto;
+  margin-top: 214px;
+  background-image: url("img/bg-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.content-3-h {
-    padding: 41px;
-}
+.content-3-h { padding: 41px; }
 
 .paragraph-3 {
-    color: white;
-    font-family: 'Inter', sans-serif;
-    font-weight: 300;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
 }
 
 .heading-5 {
-    color: white;
-    font-family: 'Crete Round', serif;
-    letter-spacing: 1px;
+  color: white;
+  font-family: 'Crete Round', serif;
+  letter-spacing: 1px;
 }
 
 .button-3 {
-    padding: 10px 10px;
-    border: none;
-    color: white;
-    background: rgba(248, 248, 248, 0.5);
-    cursor: pointer;
-    list-style-type: none;
-    display: -webkit-inline-box;
+  padding: 10px 10px;
+  border: none;
+  color: white;
+  background: rgba(248, 248, 248, 0.5);
+  cursor: pointer;
+  list-style-type: none;
+  display: -webkit-inline-box;
 }
 
 .see-project-3 {
-    margin-top: 43px;
-    position: absolute;
-    margin-left: -18px;
-    padding: 11px 128px;
-    border: none;
-    background-color: #ff6b00;
-    color: white;
-    font-weight: 600;
-    cursor: pointer;
+  margin-top: 43px;
+  position: absolute;
+  margin-left: -18px;
+  padding: 11px 128px;
+  border: none;
+  background-color: #ff6b00;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .section-4 {
-    display: flex;
-    margin: auto auto;
-    width: 375px;
-    height: 450px;
-    justify-content: space-between;
-    background-image: url("img/bg-image.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    align-items: center;
-    background-color: rgb(248, 248, 248);
+  display: flex;
+  margin: auto auto;
+  width: 375px;
+  height: 450px;
+  justify-content: space-between;
+  background-image: url("img/bg-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  background-color: rgb(248, 248, 248);
 }
 
 .section-5 {
-    display: flex;
-    margin: auto auto;
-    width: 375px;
-    height: 450px;
-    justify-content: space-between;
-    background-image: url("img/bg-image.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    align-items: center;
-    background-color: rgb(248, 248, 248);
+  display: flex;
+  margin: auto auto;
+  width: 375px;
+  height: 450px;
+  justify-content: space-between;
+  background-image: url("img/bg-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  background-color: rgb(248, 248, 248);
 }
 
 .section-6 {
-    display: flex;
-    margin: auto auto;
-    width: 375px;
-    height: 450px;
-    justify-content: space-between;
-    background-image: url("img/bg-image.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    align-items: center;
-    background-color: rgb(248, 248, 248);
+  display: flex;
+  margin: auto auto;
+  width: 375px;
+  height: 450px;
+  justify-content: space-between;
+  background-image: url("img/bg-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  background-color: rgb(248, 248, 248);
 }
 
 .section-7 {
-    display: flex;
-    margin: auto auto;
-    width: 375px;
-    height: 450px;
-    justify-content: space-between;
-    background-image: url("img/bg-image.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    align-items: center;
-    background-color: rgb(248, 248, 248);
+  display: flex;
+  margin: auto auto;
+  width: 375px;
+  height: 450px;
+  justify-content: space-between;
+  background-image: url("img/bg-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  background-color: rgb(248, 248, 248);
 }
 
 .section-8 {
-    margin: auto auto;
-    width: 375px;
-    height: 1280px;
-    justify-content: space-between;
-    background-color: #000;
+  margin: auto auto;
+  width: 375px;
+  height: 1280px;
+  justify-content: space-between;
+  background-color: #000;
 }
 
 .about-me {
-    color: #ff6b00;
-    font-family: 'Crete Round', serif;
-    font-size: 50px;
-    letter-spacing: 1px;
+  color: #ff6b00;
+  font-family: 'Crete Round', serif;
+  font-size: 50px;
+  letter-spacing: 1px;
 }
 
 .about-paragraph {
-    color: white;
-    font-family: 'Inter', sans-serif;
+  color: white;
+  font-family: 'Inter', sans-serif;
 }
 
 .about-page {
-    padding: 20px;
-    margin-top: 0;
+  padding: 20px;
+  margin-top: 0;
 }
 
 .about-button {
-    padding: 10px 15px;
-    color: white;
-    border: none;
-    background-color: #ff6b00;
-    font-weight: 600;
+  padding: 10px 15px;
+  color: white;
+  border: none;
+  background-color: #ff6b00;
+  font-weight: 600;
 }
 
 .about-bg {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 215px;
-    margin-top: -72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 215px;
+  margin-top: -72px;
 }
 
 .bg-vector {
-    margin-left: 20px;
-    display: inline-block;
+  margin-left: 20px;
+  display: inline-block;
 }
 
 .language {
-    color: white;
-    font-family: 'Crete Round', serif;
-    font-weight: 400;
-    letter-spacing: 1px;
+  color: white;
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .list-item {
-    font-weight: 500;
-    margin-left: -40px;
-    font-family: 'Inter', sans-serif;
-    color: #091e42;
-    line-height: 20px;
+  font-weight: 500; 
+  margin-left: -40px;
+  font-family: 'Inter', sans-serif;
+  color: #091e42;
+  line-height: 20px;
 }
 
 .list {
-    color: white;
-    display: table;
-    margin: 0 auto;
-    list-style-type: none;
-    line-height: 2;
-    font-family: 'Inter', sans-serif;
-    text-align: center;
+  color: white;
+  display: table;
+  margin: 0 auto;
+  list-style-type: none;
+  line-height: 2;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
 }
 
-.list-3 {
-    margin-left: -40px;
-}
+.list-3 { margin-left: -40px; }
 
 .see-project:hover {
-    background-color: #fff5e1;
-    color: #f55800;
-    border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
 }
 
 .about-button:hover {
-    background-color: #fff5e1;
-    color: #f55800;
-    border: 1px solid;
-    border-color: #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid;
+  border-color: #f55800;
 }
 
 .see-project-3:hover {
-    background-color: #fff5e1;
-    color: #f55800;
-    border: 0.5px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 0.5px solid #f55800;
 }
