@@ -320,6 +320,14 @@ body {
   flex-direction: row;
 }
 
+.list-item { 
+    margin-left: -40px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    color: #091e42;
+    line-height: 20px;
+}
+
 .list {
   color: white;
   display: table;
@@ -330,13 +338,6 @@ body {
   text-align: center;
 }
 
-.list-item { 
-  margin-left: -40px;
-  font-weight: 500;
-  font-family: 'Inter', sans-serif;
-  color: #091e42;
-  line-height: 20px;
-}
 .list-3 { margin-left: -40px; }
 
 .see-project:hover {
