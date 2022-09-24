@@ -129,7 +129,6 @@
 .button-1 {
   color: black;
   background-color: white;
-  border: 1px;    
   border-style: solid;
   padding: 10px 17px;
   cursor: pointer;
@@ -162,9 +161,7 @@
   background-position: center;
 }
 
-.content-3-h {
-  padding: 41px; 
-}
+.content-3-h { padding: 41px; }
 
 .paragraph-3 {
   color: white;
