@@ -4,6 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .toolbar {
   display: flex;
   width: 375px;
@@ -136,7 +141,7 @@
   border: 1px solid;
   padding: 10px 17px;
   cursor: pointer;
-  border-color: #000;
+  border-color: #8993a4;
   display: inline-block;
   text-decoration: none;
 }
@@ -170,6 +175,7 @@
 .paragraph-3 {
   color: white;
   font-family: 'Inter', sans-serif;
+  font-weight: 300;
 }
 
 .heading-5 {
@@ -185,6 +191,7 @@
   background: rgba(248, 248, 248, 0.5);
   cursor: pointer;
   list-style-type: none;
+  display: -webkit-inline-box;
 }
 
 .see-project-3 {
@@ -323,4 +330,30 @@
   text-align: center;
 }
 
-.list-item { margin-left: -40px; }
+.list-item { 
+  margin-left: -40px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  color: #091e42;
+  line-height: 20px;
+ }
+
+ .list-3 { margin-left: -40px; }
+
+ .see-project:hover {
+  background-color: #fff5E1;
+  color: #f55800;
+  border: 1px solid #F55800;
+}
+
+.about-button:hover {
+  background-color: #fff5E1;
+  color: #f55800;
+  border: 1px solid #F55800; 
+}
+
+.see-project-3:hover {
+  background-color: #fff5E1;
+  color: #f55800;
+  border: 0.5px solid #F55800;
+}
