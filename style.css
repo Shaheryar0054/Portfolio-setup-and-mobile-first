@@ -129,7 +129,9 @@
 .button-1 {
   color: black;
   background-color: white;
-  border: 1px solid black;    
+  border: 1px;
+  border-color: #000000;    
+  border-style: solid;
   padding: 10px 17px;
   cursor: pointer;
   display: inline-block;
@@ -152,7 +154,7 @@
   align-items: center;
   width: 375px;
   height: 450px;
-  background-color: rgb(246, 246, 246);
+  background-color: rgb(251, 251, 251);
   margin: auto auto;
   margin-top: 214px;
   background-image: url("img/bg-image.png");
@@ -277,7 +279,7 @@
   padding: 10px 15px;
   color: white;
   border: none;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   font-weight: 600;
 }
 
@@ -292,7 +294,7 @@
 .bg-vector {
   margin-left: 20px;
   display: inline-block;
-  margin: 10px;
+
 }
 .language {
   color: white;
@@ -318,4 +320,3 @@
   line-height: 2;
   font-family: 'Inter', sans-serif;
 }
-
