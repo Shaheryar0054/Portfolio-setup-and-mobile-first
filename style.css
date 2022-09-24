@@ -5,8 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .toolbar {
@@ -336,24 +336,24 @@ body {
   font-family: 'Inter', sans-serif;
   color: #091e42;
   line-height: 20px;
- }
+}
 
  .list-3 { margin-left: -40px; }
 
  .see-project:hover {
-  background-color: #fff5E1;
+  background-color: #fff5e1;
   color: #f55800;
-  border: 1px solid #F55800;
+  border: 1px solid #f55800;
 }
 
 .about-button:hover {
   background-color: #fff5E1;
   color: #f55800;
-  border: 1px solid #F55800; 
+  border: 1px solid #f55800; 
 }
 
 .see-project-3:hover {
-  background-color: #fff5E1;
+  background-color: #fff5e1;
   color: #f55800;
-  border: 0.5px solid #F55800;
+  border: 0.5px solid #f55800;
 }
