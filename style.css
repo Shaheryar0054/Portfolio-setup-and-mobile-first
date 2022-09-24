@@ -321,11 +321,10 @@ body {
 }
 
 .list-item {
-  font-weight: 500; 
   margin-left: -40px;
   font-family: 'Inter', sans-serif;
   color: #091e42;
-  line-height: 20px;
+  font-weight: 500; 
 }
 
 .list {
