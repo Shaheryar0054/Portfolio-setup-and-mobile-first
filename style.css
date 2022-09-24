@@ -129,11 +129,11 @@
 .button-1 {
   color: black;
   background-color: white;
-  border: 1px;
-  border-color: #000;    
+  border: 1px;    
   border-style: solid;
   padding: 10px 17px;
   cursor: pointer;
+  border-color: #000;
   display: inline-block;
   text-decoration: none;
 }
@@ -163,8 +163,7 @@
 }
 
 .content-3-h {
-  padding: 41px;
-  margin-top: 0; 
+  padding: 41px; 
 }
 
 .paragraph-3 {
