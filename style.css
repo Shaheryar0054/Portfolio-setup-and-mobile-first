@@ -119,11 +119,13 @@
 
 .heading-4 {
   font-family: 'Crete Round', serif;
+  font-weight: 400;
 }
 
 .paragraph-2 {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
+  color: #091E42;
 }
 
 .button-1 {
