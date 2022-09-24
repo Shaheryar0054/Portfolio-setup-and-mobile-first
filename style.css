@@ -26,10 +26,11 @@
   color: white;
   margin: 10px 10px 10px 10px;
   font-size: 18px;
-  line-height: 16px;
+  line-height: 24px;
   font-family: 'Roboto', sans-serif;
   padding: 4px;
   cursor: pointer;
+  font-weight: 700;
 }
 
 .main-content {
@@ -109,6 +110,7 @@
   font-family: 'Poppins', sans-serif;
   font-family: 'Crete Round', serif;
   font-size: 42px;
+  font-weight: 400;
 }
 
 .project-2 {
@@ -131,7 +133,7 @@
 .button-1 {
   color: black;
   background-color: white;
-  border-style: solid;
+  border: 1px solid;
   padding: 10px 17px;
   cursor: pointer;
   border-color: #000;
@@ -177,11 +179,12 @@
 }
 
 .button-3 {
-  padding: 10px 18px;
+  padding: 10px 10px;
   border: none;
   color: white;
   background: rgba(248, 248, 248, 0.5);
   cursor: pointer;
+  list-style-type: none;
 }
 
 .see-project-3 {
@@ -317,4 +320,9 @@
   list-style-type: none;
   line-height: 2;
   font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+.list-item {
+    margin-left: -40px;
 }
