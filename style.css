@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
 .toolbar {
   display: flex;
   width: 375px;
@@ -96,7 +97,6 @@
   background-color: rgb(255, 255, 255);
   margin: auto auto;
   justify-content: space-between;
-
 }
 
 .heading-3 {
@@ -106,7 +106,7 @@
 }
 
 .h-2 {
-  font-family: creat Round;
+  font-family: 'Poppins', sans-serif;
   font-family: 'Crete Round', serif;
   font-size: 42px;
 }
@@ -136,11 +136,11 @@
   text-decoration: none;
 }
 
-.see-project{
+.see-project {
   border: none;
   padding: 15px 20px;
   margin-top: 15px;
-  background-color:#FF6B00;
+  background-color: #ff6b00;
   color: white;
   font-size: 20px;
   cursor: pointer;
@@ -158,13 +158,11 @@
   background-image: url("img/bg-image.png");
   background-repeat: no-repeat;
   background-position: center;
-  
 }
 
 .content-3-h {
   padding: 41px;
-  margin-top: 0;
-  
+  margin-top: 0; 
 }
 
 .paragraph-3 {
@@ -192,7 +190,7 @@
   margin-left: -18px;
   padding: 11px 128px;
   border: none;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   color: white;
   font-weight: 600;
   cursor: pointer;
@@ -212,56 +210,54 @@
 }
 
 .section-5 {
-    display: flex;
-    margin: auto auto;
-    width: 375px;
-    height: 450px;
-    justify-content: space-between;
-    background-image: url("img/bg-image.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    align-items: center;
-    background-color: rgb(248, 248, 248);
+  display: flex;
+  margin: auto auto;
+  width: 375px;
+  height: 450px;
+  justify-content: space-between;
+  background-image: url("img/bg-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  background-color: rgb(248, 248, 248);
 }
 
 .section-6 {
-    display: flex;
-    margin: auto auto;
-    width: 375px;
-    height: 450px;
-    justify-content: space-between;
-    background-image: url("img/bg-image.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    align-items: center;
-    background-color: rgb(248, 248, 248);
+  display: flex;
+  margin: auto auto;
+  width: 375px;
+  height: 450px;
+  justify-content: space-between;
+  background-image: url("img/bg-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  background-color: rgb(248, 248, 248);
 }
 
 .section-7 {
-    display: flex;
-    margin: auto auto;
-    width: 375px;
-    height: 450px;
-    justify-content: space-between;
-    background-image: url("img/bg-image.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    align-items: center;
-    background-color: rgb(248, 248, 248);
+  display: flex;
+  margin: auto auto;
+  width: 375px;
+  height: 450px;
+  justify-content: space-between;
+  background-image: url("img/bg-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  background-color: rgb(248, 248, 248);
 }
 
 .section-8 {
-    /* display: flex; */
-    margin: auto auto;
-    width: 375px;
-    height: 1280px;
-    justify-content: space-between;
-    /* align-items: flex-start; */
-    background-color: #000000;
+  margin: auto auto;
+  width: 375px;
+  height: 1280px;
+  justify-content: space-between;
+  background-color: #000000;
 }
 
 .about-me {
-  color: #FF6B00;
+  color: #ff6b00;
   font-family: 'Crete Round', serif;
   font-size: 50px;
   letter-spacing: 1px;
@@ -278,11 +274,11 @@
 }
 
 .about-button {
-    padding: 10px 15px;
-    color: white;
-    border: none;
-    background-color: #FF6B00;
-    font-weight: 600;
+  padding: 10px 15px;
+  color: white;
+  border: none;
+  background-color: #FF6B00;
+  font-weight: 600;
 }
 
 .about-bg {
@@ -302,15 +298,16 @@
   color: white;
   font-family: 'Crete Round', serif;
   font-weight: 400;
+  letter-spacing: 1px;
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .list {
@@ -322,6 +319,3 @@
   font-family: 'Inter', sans-serif;
 }
 
-.language {
-    letter-spacing: 1px;
-}
