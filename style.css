@@ -320,12 +320,6 @@ body {
   flex-direction: row;
 }
 
-.list-item {
-  margin-left: -40px;
-  font-family: 'Inter', sans-serif;
-  color: #091e42; 
-}
-
 .list {
   color: white;
   display: table;
@@ -355,4 +349,10 @@ body {
   background-color: #fff5e1;
   color: #f55800;
   border: 0.5px solid #f55800;
+}
+
+#list-item {
+  margin-left: -41px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
 }
