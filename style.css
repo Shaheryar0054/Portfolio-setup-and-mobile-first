@@ -45,6 +45,9 @@ body {
   height: 600px;
   background-color: #1c1a19;
   margin: auto auto;
+  background-image: url(img/Group.png);
+  background-repeat: no-repeat;
+  background-position: right 325px;
 }
 
 .heading-1 {
