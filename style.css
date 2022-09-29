@@ -42,7 +42,7 @@ body {
   display: flex;
   width: 375px;
   height: 600px;
-  background-color: black;
+  background-color: #1c1a19;
   margin: auto auto;
 }
 
@@ -263,7 +263,7 @@ body {
   width: 375px;
   height: 1280px;
   justify-content: space-between;
-  background-color: #000;
+  background-color: #1c1a19;
 }
 
 .about-me {
@@ -341,7 +341,7 @@ body {
 .about-button:hover {
   background-color: #fff5e1;
   color: #f55800;
-  border: 1px solid;
+  border: none;
   border-color: #f55800;
 }
 
@@ -355,4 +355,8 @@ body {
   margin-left: -41px;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
+}
+
+.language-2 {
+  padding: 10px;
 }
