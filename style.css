@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap');
 
 body {
   margin: 0;
@@ -144,6 +145,7 @@ body {
   border-color: #8993a4;
   display: inline-block;
   text-decoration: none;
+  font-weight: 600;
 }
 
 .see-project {
@@ -195,14 +197,14 @@ body {
 }
 
 .see-project-3 {
-  margin-top: 43px;
+  margin-top: 32px;
   position: absolute;
-  margin-left: -18px;
-  padding: 11px 128px;
+  margin-left: -17px;
+  padding: 11px 129px;
   border: none;
   background-color: #ff6b00;
   color: white;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
 }
 
@@ -289,6 +291,7 @@ body {
   border: none;
   background-color: #ff6b00;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .about-bg {
@@ -306,9 +309,11 @@ body {
 
 .language {
   color: white;
-  font-family: 'Crete Round', serif;
-  font-weight: 400;
+  font-family: 'Meera Inimai', sans-serif;
+  font-weight: 700;
   letter-spacing: 1px;
+  line-height: 44px;
+  font-size: 26px;
 }
 
 .footer {
@@ -345,12 +350,6 @@ body {
   border-color: #f55800;
 }
 
-.see-project-3:hover {
-  background-color: #fff5e1;
-  color: #f55800;
-  border: 0.5px solid #f55800;
-}
-
 #list-item {
   margin-left: -41px;
   font-family: 'Inter', sans-serif;
@@ -358,5 +357,5 @@ body {
 }
 
 .language-2 {
-  padding: 10px;
+  margin: 18px;
 }
