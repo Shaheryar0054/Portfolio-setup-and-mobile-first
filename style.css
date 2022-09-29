@@ -364,4 +364,7 @@ body {
 
 .first-banner { margin-top: -200px; }
 
-.see-project-3:hover { background: #ffe4b2; color: #f55800; }
+.see-project-3:hover {
+  background-color: #ffe4b2;
+  color: #f55800;
+}
