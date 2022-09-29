@@ -5,18 +5,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap');
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
 .toolbar {
   display: flex;
   width: 375px;
   height: 48px;
   background-color: #3c3a39;
   justify-content: space-between;
-  margin: auto auto;
+  /* margin: auto auto; */
+  margin: 0;
 }
 
 .hambergur-button {
@@ -44,7 +40,7 @@ body {
   width: 375px;
   height: 600px;
   background-color: #1c1a19;
-  margin: auto auto;
+  /* margin: auto auto; */
   background-image: url(img/Group.png);
   background-repeat: no-repeat;
   background-position: right 325px;
@@ -104,7 +100,7 @@ body {
   width: 375px;
   height: 700px;
   background-color: white;
-  margin: auto auto;
+  /* margin: auto auto; */
   justify-content: space-between;
 }
 
@@ -164,7 +160,7 @@ body {
   width: 375px;
   height: 450px;
   background-color: rgb(255, 255, 255);
-  margin: auto auto;
+  /* margin: auto auto; */
   background-image: url("img/bg-image.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -208,7 +204,7 @@ body {
 
 .section-4 {
   display: flex;
-  margin: auto auto;
+  /* margin: auto auto; */
   width: 375px;
   height: 450px;
   justify-content: space-between;
@@ -221,7 +217,7 @@ body {
 
 .section-5 {
   display: flex;
-  margin: auto auto;
+  /* margin: auto auto; */
   width: 375px;
   height: 450px;
   justify-content: space-between;
@@ -234,7 +230,7 @@ body {
 
 .section-6 {
   display: flex;
-  margin: auto auto;
+  /* margin: auto auto; */
   width: 375px;
   height: 450px;
   justify-content: space-between;
@@ -247,7 +243,7 @@ body {
 
 .section-7 {
   display: flex;
-  margin: auto auto;
+  /* margin: auto auto; */
   width: 375px;
   height: 450px;
   justify-content: space-between;
@@ -259,7 +255,7 @@ body {
 }
 
 .section-8 {
-  margin: auto auto;
+  /* margin: auto auto; */
   width: 375px;
   height: 1280px;
   justify-content: space-between;
@@ -368,3 +364,6 @@ body {
   background-color: #ffe4b2;
   color: #f55800;
 }
+
+#line { width: 327px; }
+
