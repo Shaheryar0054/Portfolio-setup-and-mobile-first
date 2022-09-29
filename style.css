@@ -101,10 +101,9 @@ body {
 }
 
 .main-content-2 {
-  display: flex;
   width: 375px;
-  height: 600px;
-  background-color: rgb(255, 255, 255);
+  height: 700px;
+  background-color: white;
   margin: auto auto;
   justify-content: space-between;
 }
@@ -123,7 +122,6 @@ body {
 }
 
 .project-2 {
-  position: absolute;
   padding: 20px;
   margin-top: 214px;
 }
@@ -140,15 +138,13 @@ body {
 }
 
 .button-1 {
-  color: black;
   background-color: white;
-  border: 1px solid;
-  padding: 10px 17px;
-  cursor: pointer;
-  border-color: #8993a4;
-  display: inline-block;
-  text-decoration: none;
+  padding: 7px;
+  text-align: center;
+  border: 1px solid #8993a4;
+  color: #091e42;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .see-project {
@@ -167,9 +163,8 @@ body {
   align-items: center;
   width: 375px;
   height: 450px;
-  background-color: rgb(251, 251, 251);
+  background-color: rgb(255, 255, 255);
   margin: auto auto;
-  margin-top: 214px;
   background-image: url("img/bg-image.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -221,7 +216,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   align-items: center;
-  background-color: rgb(248, 248, 248);
+  background-color: rgb(255, 255, 255);
 }
 
 .section-5 {
@@ -234,7 +229,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   align-items: center;
-  background-color: rgb(248, 248, 248);
+  background-color: rgb(255, 255, 255);
 }
 
 .section-6 {
@@ -247,7 +242,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   align-items: center;
-  background-color: rgb(248, 248, 248);
+  background-color: rgb(255, 255, 255);
 }
 
 .section-7 {
@@ -260,7 +255,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   align-items: center;
-  background-color: rgb(248, 248, 248);
+  background-color: rgb(255, 255, 255);
 }
 
 .section-8 {
@@ -354,11 +349,22 @@ body {
 }
 
 #list-item {
-  margin-left: -41px;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 5px;
+  width: 290px;
 }
 
 .language-2 {
   margin: 18px;
+}
+
+.first-banner { margin-top: -200px; }
+
+.see-project-3:hover {
+  background: #fff0d2;
+  color: #f55800
 }
