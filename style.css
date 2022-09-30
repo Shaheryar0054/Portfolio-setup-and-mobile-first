@@ -11,7 +11,6 @@
   height: 48px;
   background-color: #3c3a39;
   justify-content: space-between;
-  /* margin: auto auto; */
 }
 
 .hambergur-button {
@@ -39,7 +38,6 @@
   width: 375px;
   height: 600px;
   background-color: #1c1a19;
-  /* margin: auto auto; */
   background-image: url(img/Group.png);
   background-repeat: no-repeat;
   background-position: right 325px;
@@ -99,7 +97,6 @@
   width: 375px;
   height: 700px;
   background-color: white;
-  /* margin: auto auto; */
   justify-content: space-between;
 }
 
@@ -159,7 +156,6 @@
   width: 375px;
   height: 450px;
   background-color: rgb(255, 255, 255);
-  /* margin: auto auto; */
   background-image: url("img/bg-image.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -203,7 +199,6 @@
 
 .section-4 {
   display: flex;
-  /* margin: auto auto; */
   width: 375px;
   height: 450px;
   justify-content: space-between;
@@ -216,7 +211,6 @@
 
 .section-5 {
   display: flex;
-  /* margin: auto auto; */
   width: 375px;
   height: 450px;
   justify-content: space-between;
@@ -229,7 +223,6 @@
 
 .section-6 {
   display: flex;
-  /* margin: auto auto; */
   width: 375px;
   height: 450px;
   justify-content: space-between;
@@ -242,7 +235,6 @@
 
 .section-7 {
   display: flex;
-  /* margin: auto auto; */
   width: 375px;
   height: 450px;
   justify-content: space-between;
@@ -254,7 +246,6 @@
 }
 
 .section-8 {
-  /* margin: auto auto; */
   width: 375px;
   height: 1280px;
   justify-content: space-between;
@@ -365,4 +356,3 @@
 }
 
 #line { width: 327px; }
-
