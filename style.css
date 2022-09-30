@@ -247,7 +247,7 @@
 
 .section-8 {
   width: 375px;
-  height: 1280px;
+  height: 1643px;
   justify-content: space-between;
   background-color: #1c1a19;
 }
@@ -303,10 +303,11 @@
 .footer {
   display: flex;
   justify-content: center;
-  align-items: center;
-  align-content: space-between;
-  flex-wrap: wrap;
-  flex-direction: row;
+  column-gap: 18px;
+  color: white;
+  margin-left: -14px;
+  margin-top: 30px;
+  font-family: 'Meera Inimai', sans-serif;
 }
 
 .list {
@@ -356,3 +357,20 @@
 }
 
 #line { width: 327px; }
+
+.list-end {
+  color: white;
+  text-align: center;
+  list-style: none;
+  margin-left: -26px;
+  font-family: inter;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 42px;
+  margin-top: -17px;
+}
+
+.heading-end {
+  font-size: 32px;
+  line-height: 44px;
+}
