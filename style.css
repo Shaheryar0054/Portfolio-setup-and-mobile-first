@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap');
 
 .toolbar {
   display: flex;
@@ -8,7 +11,6 @@
   height: 48px;
   background-color: #3c3a39;
   justify-content: space-between;
-  margin: 0;
 }
 
 .hambergur-button {
@@ -24,17 +26,21 @@
   color: white;
   margin: 10px 10px 10px 10px;
   font-size: 18px;
-  line-height: 16px;
+  line-height: 24px;
   font-family: 'Roboto', sans-serif;
   padding: 4px;
   cursor: pointer;
+  font-weight: 700;
 }
 
 .main-content {
   display: flex;
   width: 375px;
   height: 600px;
-  background-color: black;
+  background-color: #1c1a19;
+  background-image: url(img/Group.png);
+  background-repeat: no-repeat;
+  background-position: right 325px;
 }
 
 .heading-1 {
@@ -85,4 +91,286 @@
   align-items: center;
   padding: 243px;
   margin-top: 58px;
+}
+
+.main-content-2 {
+  width: 375px;
+  height: 700px;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.heading-3 {
+  color: black;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+.h-2 {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Crete Round', serif;
+  font-size: 42px;
+  font-weight: 400;
+}
+
+.project-2 {
+  padding: 20px;
+  margin-top: 214px;
+}
+
+.heading-4 {
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+}
+
+.paragraph-2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  color: #091e42;
+}
+
+.button-1 {
+  background-color: white;
+  padding: 7px;
+  text-align: center;
+  border: 1px solid #8993a4;
+  color: #091e42;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.see-project {
+  border: none;
+  padding: 15px 20px;
+  margin-top: 15px;
+  background-color: #ff6b00;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.main-content-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 375px;
+  height: 450px;
+  background-color: rgb(255, 255, 255);
+  background-image: url("img/bg-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content-3-h { padding: 41px; }
+
+.paragraph-3 {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+}
+
+.heading-5 {
+  color: white;
+  font-family: 'Crete Round', serif;
+  letter-spacing: 1px;
+}
+
+.button-3 {
+  padding: 10px 10px;
+  border: none;
+  color: white;
+  background: rgba(248, 248, 248, 0.5);
+  cursor: pointer;
+  list-style-type: none;
+  display: -webkit-inline-box;
+}
+
+.see-project-3 {
+  margin-top: 32px;
+  position: absolute;
+  margin-left: -17px;
+  padding: 11px 129px;
+  border: none;
+  background-color: #ff6b00;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.section-4 {
+  display: flex;
+  width: 375px;
+  height: 450px;
+  justify-content: space-between;
+  background-image: url("img/bg-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.section-5 {
+  display: flex;
+  width: 375px;
+  height: 450px;
+  justify-content: space-between;
+  background-image: url("img/bg-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.section-6 {
+  display: flex;
+  width: 375px;
+  height: 450px;
+  justify-content: space-between;
+  background-image: url("img/bg-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.section-7 {
+  display: flex;
+  width: 375px;
+  height: 450px;
+  justify-content: space-between;
+  background-image: url("img/bg-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.section-8 {
+  width: 375px;
+  height: 1643px;
+  justify-content: space-between;
+  background-color: #1c1a19;
+}
+
+.about-me {
+  color: #ff6b00;
+  font-family: 'Crete Round', serif;
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+
+.about-paragraph {
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.about-page {
+  padding: 20px;
+  margin-top: 0;
+}
+
+.about-button {
+  padding: 10px 15px;
+  color: white;
+  border: none;
+  background-color: #ff6b00;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.about-bg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 215px;
+  margin-top: -72px;
+}
+
+.bg-vector {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.language {
+  color: white;
+  font-family: 'Meera Inimai', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 44px;
+  font-size: 26px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  column-gap: 18px;
+  color: white;
+  margin-left: -14px;
+  margin-top: 30px;
+  font-family: 'Meera Inimai', sans-serif;
+}
+
+.list {
+  color: white;
+  display: table;
+  margin: 0 auto;
+  list-style-type: none;
+  line-height: 2;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+.list-3 { margin-left: -40px; }
+
+.see-project:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.about-button:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: none;
+  border-color: #f55800;
+}
+
+#list-item {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 5px;
+  width: 290px;
+}
+
+.language-2 {
+  margin: 18px;
+}
+
+.first-banner { margin-top: -200px; }
+
+.see-project-3:hover {
+  background-color: #ffe4b2;
+  color: #f55800;
+}
+
+#line { width: 327px; }
+
+.list-end {
+  color: white;
+  text-align: center;
+  list-style: none;
+  margin-left: -26px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 42px;
+  margin-top: -17px;
+}
+
+.heading-end {
+  font-size: 32px;
+  line-height: 44px;
 }

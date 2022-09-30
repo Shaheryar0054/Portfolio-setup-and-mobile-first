@@ -9,7 +9,14 @@
 - Git and github
 
 ## Live Demo (if available)
-There no live demo available.
+# Sample-Project
+# Completely Responsive
+![Screenshot 2022-09-30 001330](https://user-images.githubusercontent.com/95047696/193204701-41622aa6-1b05-4c4b-97fa-e738ef776b31.png)
+![Screenshot 2022-09-30 111801](https://user-images.githubusercontent.com/95047696/193204706-bd29e6af-c55a-44bc-9e13-f1cb5c4dc3a9.png)
+![Screenshot 2022-09-30 111842](https://user-images.githubusercontent.com/95047696/193204710-f62d4c4f-fec9-4177-9d99-f5ac6934ef68.png)
+![Screenshot 2022-09-30 111926](https://user-images.githubusercontent.com/95047696/193204712-42591c94-d70e-4d62-a95e-f21b0ee5e7e0.png)
+![Screenshot 2022-09-30 112019](https://user-images.githubusercontent.com/95047696/193204715-f39026ec-7890-4e77-a3b5-66e80638b2b3.png)
+
 
 To get a local copy up and running follow these simple example steps.
 
