@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
 .toolbar {
   display: flex;
@@ -373,4 +374,68 @@
 .heading-end {
   font-size: 32px;
   line-height: 44px;
+}
+
+.form-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 375px;
+  height: 1000px;
+  text-align: center;
+  background-color: #ffffff;
+  justify-content: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -316px;
+}
+
+.form-heading {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4D;
+  /* padding: 14px;
+  margin-top: 78px; */
+}
+
+.input {
+  width: 327px;
+  height: 48px;
+  border: none;
+  color: #979493;
+  border-bottom: 1px solid #dbd8d7;
+}
+#text-1 {
+  color: black;
+  width: 327px;
+  height: 114px;
+  background: #fbf8f7;
+  border: none;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: 'Inter', sans-serif;
+}
+
+.btn-form {
+  border: none;
+  color: white;
+  padding: 12px;
+  background-color: #ff6b00;
+  cursor: pointer;
+  width: 107px;
+  height: 41px;
+  font-weight: 700;
+  margin-left: 109px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
