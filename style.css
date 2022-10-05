@@ -397,7 +397,7 @@
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172b4D;
+  color: #172b4d;
   text-align: center;
 }
 
@@ -408,6 +408,7 @@
   color: #979493;
   border-bottom: 1px solid #dbd8d7;
 }
+
 #text-1 {
   color: black;
   width: 327px;
@@ -441,7 +442,7 @@
 .footer-line {
   width: 375px;
   margin-top: 65px;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
 }
 
 .social-footer {
