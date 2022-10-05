@@ -451,8 +451,8 @@
   align-items: center;
 }
 
-.btn-form:hover { 
+.btn-form:hover {
   color: #f55800;
   background-color: #fff5e1;
-  border: 1px solid #f55800; 
+  border: 1px solid #f55800;
 }
