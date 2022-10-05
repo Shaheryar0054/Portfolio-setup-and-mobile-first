@@ -426,7 +426,7 @@
   border: none;
   color: white;
   padding: 12px;
-  background-color: #ff6b00;
+  background-color: #000000;
   cursor: pointer;
   width: 107px;
   height: 41px;
@@ -438,4 +438,8 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+.footer-line {
+  width: ;
 }
