@@ -6,42 +6,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .toolbar {
   display: flex;
-  width: 375px;
-  height: 48px;
+  width: 100%;
+  height: 72px;
   background-color: #3c3a39;
   justify-content: space-between;
+  align-content: center;
+  align-items: center;
 }
 
 .hambergur-button {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 9px;
-  cursor: pointer;
+  flex-direction: row; 
+  cursor: pointer; 
+  margin-left: 64px; 
+  align-content: flex-start; 
+  justify-content: flex-end; 
+  padding-left: 19px; 
+  padding: 120px;
 }
 
 .logo {
   text-decoration: none;
   color: white;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 154px;
   font-size: 18px;
   line-height: 24px;
   font-family: 'Roboto', sans-serif;
   padding: 4px;
   cursor: pointer;
-  font-weight: 700;
 }
 
 .main-content {
   display: flex;
-  width: 375px;
-  height: 600px;
+  width: 100%;
+  height: 870px;
   background-color: #1c1a19;
-  background-image: url(img/Group.png);
+  background-image: url(img/Illustration-header.svg);
   background-repeat: no-repeat;
-  background-position: right 325px;
+  background-position: right -65px;
 }
 
 .heading-1 {
@@ -49,8 +58,8 @@
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 46px;
-  line-height: 54px;
+  font-size: 72px;
+  line-height: 87px;
   letter-spacing: 0.37px;
   padding-top: 60px;
 }
@@ -58,27 +67,48 @@
 .heading-2 {
   color: white;
   font-family: 'Roboto', sans-serif;
-  margin: -20px 0 0 0;
+  margin: -35px 0 0 0;
+  line-height: 44px;
+  letter-spacing: 2px;
+}
+
+.menu-1 {
+  display: flex;
+  list-style: none;
+  color: white;
+}
+
+.menu-2 {
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .paragraph {
   color: white;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
+  font-size: 20px;
 }
 
 .text-content {
-  margin: 26px;
+  width: 480px;
+  margin-left: 225px;
+  margin-top: 78px;
 }
 
 .social-links {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   width: 200px;
   height: 40px;
   list-style-type: none;
-  margin-left: -39px;
+  margin-left: -288px;
+  align-content: flex-end;
+  justify-content: flex-end;
+  margin-top: -161px;
 }
 
 .social {
@@ -455,4 +485,58 @@
   color: #f55800;
   background-color: #fff5e1;
   border: 1px solid #f55800;
+}
+
+@media only screen and (max-width: 841px) {
+  .main-content {
+    background-size: 330px;
+    background-color: #1c1a19;
+    background-image: url(img/Illustration-header.svg);
+    background-repeat: no-repeat;
+    background-position: right 350px;
+    box-sizing: border-box;
+    width: 841px;
+  }
+  .toolbar {
+    display: flex;
+    width: 841px;
+    height: 72px;
+    background-color: #3c3a39;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+  }
+  .logo {
+    text-decoration: none;
+    color: white;
+    margin: 10px 10px 10px 30px;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+    padding: 4px;
+    cursor: pointer;
+  }
+  .heading-1 {
+    color: #ff6b00;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.37px;
+    padding-top: 60px;
+  }
+  .hambergur-button {
+    padding: 50px;
+  }
+  .text-content {
+    width: 480px;
+    margin-left: 80px;
+    margin-top: 150px;
+  }
+  .social-links {
+    display: flex;
+    flex-direction: row;
+    margin-left: -52px;
+    margin-top: 20px;
 }
