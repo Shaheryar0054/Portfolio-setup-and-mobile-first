@@ -1,6 +1,6 @@
-# Hello Microverse
+# Mobile Portfolio project
 
-> In this project I am going to build a simple Mobile app landing page.
+> The goal here is to creat a portfolio website professionally maintaining reposotory and resolving any linters errors.
 
 
 ## Built With
@@ -16,7 +16,7 @@
 ![Screenshot 2022-09-30 111842](https://user-images.githubusercontent.com/95047696/193204710-f62d4c4f-fec9-4177-9d99-f5ac6934ef68.png)
 ![Screenshot 2022-09-30 111926](https://user-images.githubusercontent.com/95047696/193204712-42591c94-d70e-4d62-a95e-f21b0ee5e7e0.png)
 ![Screenshot 2022-09-30 112019](https://user-images.githubusercontent.com/95047696/193204715-f39026ec-7890-4e77-a3b5-66e80638b2b3.png)
-
+![contact form](https://user-images.githubusercontent.com/95047696/194077434-0d53adf2-548e-4c5a-9aa5-05907ef1e488.png)
 
 To get a local copy up and running follow these simple example steps.
 
