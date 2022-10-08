@@ -681,7 +681,7 @@ html body {
     box-sizing: border-box;
   }
 
- .toolbar {
+  .toolbar {
     display: flex;
     height: 72px;
     background-color: #3c3a39;
@@ -690,7 +690,7 @@ html body {
     align-items: center;
   }
 
- .logo {
+  .logo {
     text-decoration: none;
     color: white;
     margin: 10px 10px 10px 30px;
@@ -701,7 +701,7 @@ html body {
     cursor: pointer;
   }
 
- .heading-1 {
+  .heading-1 {
     color: #ff6b00;
     font-family: 'Crete Round', serif;
     font-style: normal;
@@ -712,19 +712,18 @@ html body {
     padding-top: 60px;
   }
 
- .hambergur-button { padding: 50px; }
+  .hambergur-button { padding: 50px; }
 
- .text-content {
+  .text-content {
     width: 480px;
     margin-left: 80px;
     margin-top: 150px;
   }
 
- .social-links {
+  .social-links {
     display: flex;
     flex-direction: row;
     margin-left: -52px;
     margin-top: 20px;
   }
-
 }
