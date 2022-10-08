@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
-html body {
+html , body {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -132,7 +132,7 @@ html body {
   width: 100%;
   display: flex;
   align-items: center;
-  background-color: bisque;
+  background-color: white;
   flex-direction: column;
   height: 700px;
 }
@@ -166,6 +166,8 @@ html body {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   color: #091e42;
+  line-height: 24px;
+  font-size: 20px;
 }
 
 .button-1 {
@@ -521,7 +523,7 @@ html body {
 #main-container {
   width: 100%;
   height: 1000px;
-  background-color: #979493;
+  background-color: white;
   display: grid;
   row-gap: 20px;
   column-gap: 20px;
@@ -662,8 +664,10 @@ html body {
   border: 1px solid #f55800;
 }
 
-@media only screen and (max-width: 900px) {
-  html body {
+.burger-2 { display: none; }
+
+@media only screen and (max-width: 800px) {
+  html , body {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -672,11 +676,11 @@ html body {
   }
 
   .main-content {
-    background-size: 330px;
+    background-size: 300px;
     background-color: #1c1a19;
     background-image: url(img/Illustration-header.svg);
     background-repeat: no-repeat;
-    background-position: right 350px;
+    background-position: right 390px;
     box-sizing: border-box;
   }
 
@@ -715,8 +719,8 @@ html body {
 
   .text-content {
     width: 480px;
-    margin-left: 80px;
-    margin-top: 150px;
+    margin-left: 32px;
+    margin-top: -9px;
   }
 
   .social-links {
@@ -725,4 +729,188 @@ html body {
     margin-left: -52px;
     margin-top: 20px;
   }
+  .heading-3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #h2-line {
+    width: 327px;
+    border: 1px solid black;
+  }
+  .project-2 {
+    padding: 20px;
+    margin-top: 214px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .first-banner {
+    margin-top: -200px;
+    width: 327px;
+    height: 237px;
+  }
+  .new {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 25px;
+    width: 470px;
+    margin-left: 149px;
+    margin-top: 1px;
+  }
+  .heading-4 {
+    font-family: 'Crete Round', serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1px;
+  }
+  .main-content-2 { height: 750px; }
+
+  .paragraph-2 { font-size: 16px; }
+
+  .item-1 {
+    background-image: url(img/item-1.svg);
+    display: flex;
+    align-items: flex-end;
+    width: 327px;
+    height: 386px;
+  }
+  .item-2 {
+    background-image: url(img/item-4.svg);
+    display: flex;
+    align-items: flex-end;
+    width: 327px;
+    height: 386px;
+  }
+  .item-3 {
+    background-image: url(img/item-4.svg);
+    display: flex;
+    align-items: flex-end;
+    width: 327px;
+    height: 386px;
+  }
+  .item-4 {
+    background-image: url(img/item-4.svg);
+    display: flex;
+    align-items: flex-end;
+    width: 327px;
+    height: 386px;
+  }
+  .item-5 {
+    background-image: url(img/item-4.svg);
+    display: flex;
+    align-items: flex-end;
+    width: 327px;
+    height: 386px;
+  }
+  .item-6 {
+    background-image: url(img/item-4.svg);
+    display: flex;
+    align-items: flex-end;
+    width: 327px;
+    height: 386px;
+  }
+  #main-container {
+    height: 150em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-page {
+    padding: 76px;
+    background-image: url(img/About-me.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 270px 384px;
+    background-size: 288px;
+  }
+  .about-paragraph {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 132%;
+    width: 283px;
+  }
+  .about-me {
+    color: #f55800;
+    font-family: 'Crete Round', serif;
+    font-size: 52px;
+    letter-spacing: 1px;
+    line-height: 89%;
+  }
+  .section-8 {
+    width: 100%;
+    height: 110em;
+    justify-content: space-between;
+    background-color: #1c1a19;
+  }
+  #footer-container {
+    display: flex;
+    margin-top: 9em;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+  }
+  .form-container-2 {
+    display: flex;
+    width: 100%;
+    height: 49em;
+    flex-direction: column;
+    align-items: center;
+  }
+  #form-heading {
+    margin-top: 83px;
+    font-size: 32px;
+    line-height: 44px;
+    font-family: 'Inter', sans-serif;
+  }
+  .actuall-form {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+.first-name {
+  width: 27px;
+}
+.input-2 {
+  width: 340px;
+  height: 48px;
+  border: none;
+  color: #979493;
+  border-bottom: 1px solid #dbd8d7;
+}
+#text-1 {
+  color: black;
+  width: 340px;
+  height: 114px;
+  background: #fbf8f7;
+  border: none;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: 'Inter', sans-serif;
+}
+#form-h1 {
+  width: 326px;
+  align-items: center;
+}
+.social-links-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-1{ display: none; }
+
+.burger-1{ display: none; }
+
+#hambergur-button {
+  display: flex;
+  cursor: pointer;
+  margin: 44px;
+}
+
+.burger-2 { display: flex; }
 }
