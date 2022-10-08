@@ -189,10 +189,8 @@ body {
   color: white;
   font-size: 20px;
   cursor: pointer;
-  transition: all 1s ease-in-out .3s;
+  transition: all 1s ease-in-out 0.3s;
 }
-
-.see-project:hover { border-radius: 20px; }
 
 .main-content-3 {
   display: flex;
@@ -384,6 +382,7 @@ body {
   background-color: #fff5e1;
   color: #f55800;
   border: 1px solid #f55800;
+  border-radius: 20px;
 }
 
 .about-button:hover {
