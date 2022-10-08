@@ -6,9 +6,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
-body {
+html,body {
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .toolbar {
@@ -51,6 +54,11 @@ body {
   background-image: url(img/Illustration-header.svg);
   background-repeat: no-repeat;
   background-position: right -65px;
+}
+
+#h2-line {
+  width: 794px;
+  border: 1px solid black;
 }
 
 .heading-1 {
@@ -114,6 +122,7 @@ body {
 .social {
   padding: 10px;
   cursor: pointer;
+  list-style: none;
 }
 
 .bg-img {
@@ -125,16 +134,18 @@ body {
 }
 
 .main-content-2 {
-  width: 375px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: bisque;
+  flex-direction: column;
   height: 700px;
-  background-color: white;
-  justify-content: space-between;
 }
 
 .heading-3 {
-  color: black;
-  margin-left: 25px;
   margin-top: 30px;
+  display: flex;
+  align-items: center;
 }
 
 .h-2 {
@@ -147,11 +158,13 @@ body {
 .project-2 {
   padding: 20px;
   margin-top: 214px;
+  display: flex;
 }
 
 .heading-4 {
   font-family: 'Crete Round', serif;
   font-weight: 400;
+  font-size: 40px;
 }
 
 .paragraph-2 {
@@ -204,10 +217,12 @@ body {
   color: white;
   font-family: 'Crete Round', serif;
   letter-spacing: 1px;
+  line-height: 44px;
+  font-size: 32px;
 }
 
 .button-3 {
-  padding: 10px 10px;
+  padding: 10px 12px 10px 12px;
   border: none;
   color: white;
   background: rgba(248, 248, 248, 0.5);
@@ -277,36 +292,43 @@ body {
 }
 
 .section-8 {
-  width: 375px;
-  height: 1643px;
+  width: 100%;
+  height: 70em;
   justify-content: space-between;
   background-color: #1c1a19;
 }
 
 .about-me {
-  color: #ff6b00;
+  color: #f55800;
   font-family: 'Crete Round', serif;
-  font-size: 50px;
+  font-size: 72px;
   letter-spacing: 1px;
+  line-height: 89%;
 }
 
 .about-paragraph {
   color: white;
   font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  line-height: 132%;
+  width: 468px;
 }
 
 .about-page {
-  padding: 20px;
-  margin-top: 0;
+  padding: 76px;
+  background-image: url(img/About-me.svg);
+  background-repeat: no-repeat;
+  background-position: right;
 }
-
 .about-button {
-  padding: 10px 15px;
+  padding: 15px 20px;
   color: white;
   border: none;
-  background-color: #ff6b00;
+  background-color: #f55800;
   font-weight: 600;
   cursor: pointer;
+  font-size: 17px;
+  line-height: 24px;
 }
 
 .about-bg {
@@ -387,7 +409,7 @@ body {
   color: #f55800;
 }
 
-#line { width: 327px; }
+#line { width: 1156px; }
 
 .list-end {
   color: white;
@@ -405,6 +427,13 @@ body {
   font-size: 32px;
   line-height: 44px;
 }
+
+.footer-1 {
+  display: flex;
+  font-size: 32px;
+  color: white;
+}
+
 
 .form-section {
   width: 375px;
@@ -432,7 +461,7 @@ body {
 }
 
 .input {
-  width: 327px;
+  width: 338px;
   height: 48px;
   border: none;
   color: #979493;
@@ -441,7 +470,7 @@ body {
 
 #text-1 {
   color: black;
-  width: 327px;
+  width: 684px;
   height: 114px;
   background: #fbf8f7;
   border: none;
@@ -460,7 +489,6 @@ body {
   width: 107px;
   height: 41px;
   font-weight: 700;
-  margin-left: 109px;
 }
 
 #form {
@@ -487,19 +515,182 @@ body {
   border: 1px solid #f55800;
 }
 
-@media only screen and (max-width: 841px) {
+.new {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: -202px;
+  margin-left: 25px;
+  width: 470px;
+}
+
+#main-container {
+  width: 100%;
+  height: 1000px;
+  background-color: #979493;
+  display: grid;
+  row-gap: 20px;
+  column-gap: 20px;
+  grid-template-rows: 435px 435px 435px;
+  grid-template-columns: 369px 369px 369px;
+  justify-content: center;
+}
+
+.footer-heading-1 {
+  display: flex;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.3rem;
+}
+
+.footer-items {
+  list-style: none;
+  color: white;
+  column-gap: 28px;
+  line-height: 2.5em;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+}
+
+#about-h1 {
+  padding-left: 9px;
+}
+
+#footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 9em;
+}
+
+#form-container {
+  width: 100%;
+  height: 41em;
+}
+
+#form-h1 {
+  width: 500px;
+  align-items: center;
+}
+
+.actuall-form {
+  display: flex;
+  align-items: center;
+  margin-left: -20em;
+}
+
+.form-container-2 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 30em;
+}
+
+.input-2 {
+  width: 684px;
+  height: 48px;
+  border: none;
+  color: #979493;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+#form-heading {
+  margin-top: 83px;
+  font-size: 40px;
+  line-height: 52px;
+  font-family: 'Inter', sans-serif;
+}
+
+.last-line {
+  margin-top: 106px;
+  border: 1px solid #dfe1e6;
+}
+
+.social-links-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.item-1 {
+  background-image: url(img/item-1.svg);
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}  
+.item-2 {
+  background-image: url(img/item-2.svg);
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}  
+.item-3 {
+  background-image: url(img/item-3.svg);
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}  
+.item-4 {
+  background-image: url(img/item-4.svg);
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  
+}  
+.item-5 {
+  background-image: url(img/item-2.svg);
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  
+}  
+.item-6 {
+  background-image: url(img/item-3.svg);
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  
+}
+
+#see-project {
+  width: 369px;
+  height: 58px;
+  background-color:#f55800;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 17px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+#see-project:hover {
+  background-color:#FFF5E1;
+  color: #f55800;
+  border: 1px solid #F55800;
+}
+
+
+@media only screen and (max-width: 900px) {
+  html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar {
+  display: none;
+}
   .main-content {
+    /* max-width: 1200px; */
     background-size: 330px;
     background-color: #1c1a19;
     background-image: url(img/Illustration-header.svg);
     background-repeat: no-repeat;
     background-position: right 350px;
     box-sizing: border-box;
-    width: 841px;
   }
   .toolbar {
     display: flex;
-    width: 841px;
+    /* max-width: 841px; */
     height: 72px;
     background-color: #3c3a39;
     justify-content: space-between;
@@ -539,4 +730,6 @@ body {
     flex-direction: row;
     margin-left: -52px;
     margin-top: 20px;
+}
+
 }
