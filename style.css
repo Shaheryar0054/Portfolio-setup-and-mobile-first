@@ -189,6 +189,11 @@ body {
   color: white;
   font-size: 20px;
   cursor: pointer;
+  transition: all 1s ease-in-out .3s;
+}
+
+.see-project:hover{
+  border-radius: 20px;
 }
 
 .main-content-3 {
