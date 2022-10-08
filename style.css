@@ -25,13 +25,9 @@ html body {
 }
 
 .hambergur-button {
-  display: flex;
-  flex-direction: row; 
-  cursor: pointer; 
-  margin-left: 64px; 
-  align-content: flex-start; 
-  justify-content: flex-end; 
-  padding: 120px;
+  display: flex; 
+  cursor: pointer;
+  margin: 125px;
 }
 
 .logo {
@@ -323,7 +319,6 @@ html body {
   color: white;
   border: none;
   background-color: #f55800;
-  font-weight: 600;
   cursor: pointer;
   font-size: 17px;
   line-height: 24px;
@@ -634,23 +629,18 @@ html body {
   background-size: cover;
   display: flex;
   align-items: flex-end;
-  
 }
 
 .item-5 {
   background-image: url(img/item-2.svg);
-  background-size: cover;
   display: flex;
   align-items: flex-end;
-  
 }
 
 .item-6 {
   background-image: url(img/item-3.svg);
-  background-size: cover;
   display: flex;
-  align-items: flex-end;
-  
+  align-items: flex-end; 
 }
 
 #see-project {
@@ -666,7 +656,7 @@ html body {
 }
 
 #see-project:hover {
-  background-color:#FFF5E1;
+  background-color:#fff5e1;
   color: #f55800;
   border: 1px solid #f55800;
 }
@@ -679,9 +669,7 @@ html body {
   padding: 0;
   overflow-x: hidden;
 }
-.navbar {
-  display: none;
-}
+
 .main-content {
   background-size: 330px;
   background-color: #1c1a19;
@@ -690,6 +678,7 @@ html body {
   background-position: right 350px;
   box-sizing: border-box;
 }
+
 .toolbar {
   display: flex;
   height: 72px;
@@ -698,6 +687,7 @@ html body {
   align-content: center;
   align-items: center;
 }
+
 .logo {
   text-decoration: none;
   color: white;
@@ -708,6 +698,7 @@ html body {
   padding: 4px;
   cursor: pointer;
 }
+
 .heading-1 {
   color: #ff6b00;
   font-family: 'Crete Round', serif;
@@ -718,12 +709,15 @@ html body {
   letter-spacing: 0.37px;
   padding-top: 60px;
 }
+
 .hambergur-button { padding: 50px; }
+
 .text-content {
   width: 480px;
   margin-left: 80px;
   margin-top: 150px;
 }
+
 .social-links {
   display: flex;
   flex-direction: row;
