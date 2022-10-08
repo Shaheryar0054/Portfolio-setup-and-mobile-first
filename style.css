@@ -580,7 +580,6 @@ body {
 .actuall-form {
   display: flex;
   align-items: center;
-  margin-left: -20em;
 }
 
 .form-container-2 {
@@ -843,7 +842,7 @@ body {
   }
 
   #main-container {
-    height: 150em;
+    height: 165em;
     display: flex;
     flex-direction: column;
     align-items: center;
