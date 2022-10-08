@@ -6,7 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
-html , body {
+html,
+body {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -25,7 +26,7 @@ html , body {
 }
 
 #hambergur-button {
-  display: flex; 
+  display: flex;
   cursor: pointer;
   margin: 125px;
 }
@@ -202,7 +203,9 @@ html , body {
   background-position: center;
 }
 
-.content-3-h { padding: 41px; }
+.content-3-h {
+  padding: 41px;
+}
 
 .paragraph-3 {
   color: white;
@@ -370,7 +373,9 @@ html , body {
   text-align: center;
 }
 
-.list-3 { margin-left: -40px; }
+.list-3 {
+  margin-left: -40px;
+}
 
 .see-project:hover {
   background-color: #fff5e1;
@@ -399,14 +404,18 @@ html , body {
   margin: 18px;
 }
 
-.first-banner { margin-top: -200px; }
+.first-banner {
+  margin-top: -200px;
+}
 
 .see-project-3:hover {
   background-color: #ffe4b2;
   color: #f55800;
 }
 
-#line { width: 1156px; }
+#line {
+  width: 1156px;
+}
 
 .list-end {
   color: white;
@@ -643,7 +652,7 @@ html , body {
 .item-6 {
   background-image: url(img/item-3.svg);
   display: flex;
-  align-items: flex-end; 
+  align-items: flex-end;
 }
 
 #see-project {
@@ -664,10 +673,14 @@ html , body {
   border: 1px solid #f55800;
 }
 
-.burger-2 { display: none; }
+.burger-2 {
+  display: none;
+}
 
 @media only screen and (max-width: 800px) {
-  html , body {
+
+  html,
+  body {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -715,7 +728,9 @@ html , body {
     padding-top: 60px;
   }
 
-  .hambergur-button { padding: 50px; }
+  .hambergur-button {
+    padding: 50px;
+  }
 
   .text-content {
     width: 480px;
@@ -773,9 +788,13 @@ html , body {
     line-height: 1px;
   }
 
-  .main-content-2 { height: 750px; }
+  .main-content-2 {
+    height: 750px;
+  }
 
-  .paragraph-2 { font-size: 16px; }
+  .paragraph-2 {
+    font-size: 16px;
+  }
 
   .item-1 {
     background-image: url(img/item-1.svg);
@@ -894,7 +913,9 @@ html , body {
     margin-left: 2rem;
   }
 
-  .first-name { width: 27px; }
+  .first-name {
+    width: 27px;
+  }
 
   .input-2 {
     width: 340px;
@@ -914,7 +935,7 @@ html , body {
     font-weight: 400;
     line-height: 24px;
     font-family: 'Inter', sans-serif;
-  } 
+  }
 
   #form-h1 {
     width: 326px;
@@ -927,9 +948,13 @@ html , body {
     align-items: center;
   }
 
-  .menu-1{ display: none; }
+  .menu-1 {
+    display: none;
+  }
 
-  .burger-1{ display: none; }
+  .burger-1 {
+    display: none;
+  }
 
   #hambergur-button {
     display: flex;
@@ -937,5 +962,7 @@ html , body {
     margin: 44px;
   }
 
-  .burger-2 { display: flex; }
+  .burger-2 {
+    display: flex;
+  }
 }
