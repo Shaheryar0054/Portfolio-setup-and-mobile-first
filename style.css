@@ -24,7 +24,7 @@ html body {
   align-items: center;
 }
 
-.hambergur-button {
+#hambergur-button {
   display: flex; 
   cursor: pointer;
   margin: 125px;
@@ -315,6 +315,7 @@ html body {
   background-repeat: no-repeat;
   background-position: right;
 }
+
 .about-button {
   color: white;
   border: none;
@@ -662,6 +663,7 @@ html body {
 }
 
 @media only screen and (max-width: 900px) {
+
   html,body {
   width: 100%;
   height: 100%;
