@@ -647,7 +647,7 @@ html body {
 #see-project {
   width: 369px;
   height: 58px;
-  background-color:#f55800;
+  background-color: #f55800;
   color: white;
   cursor: pointer;
   border: none;
@@ -657,74 +657,74 @@ html body {
 }
 
 #see-project:hover {
-  background-color:#fff5e1;
+  background-color: #fff5e1;
   color: #f55800;
   border: 1px solid #f55800;
 }
 
 @media only screen and (max-width: 900px) {
 
-  html,body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
+ html body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+ }
 
-.main-content {
-  background-size: 330px;
-  background-color: #1c1a19;
-  background-image: url(img/Illustration-header.svg);
-  background-repeat: no-repeat;
-  background-position: right 350px;
-  box-sizing: border-box;
-}
+ .main-content {
+    background-size: 330px;
+    background-color: #1c1a19;
+    background-image: url(img/Illustration-header.svg);
+    background-repeat: no-repeat;
+    background-position: right 350px;
+    box-sizing: border-box;
+ }
 
-.toolbar {
-  display: flex;
-  height: 72px;
-  background-color: #3c3a39;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center;
-}
+ .toolbar {
+    display: flex;
+    height: 72px;
+    background-color: #3c3a39;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+ }
 
-.logo {
-  text-decoration: none;
-  color: white;
-  margin: 10px 10px 10px 30px;
-  font-size: 18px;
-  line-height: 24px;
-  font-family: 'Roboto', sans-serif;
-  padding: 4px;
-  cursor: pointer;
-}
+ .logo {
+    text-decoration: none;
+    color: white;
+    margin: 10px 10px 10px 30px;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+    padding: 4px;
+    cursor: pointer;
+ }
 
-.heading-1 {
-  color: #ff6b00;
-  font-family: 'Crete Round', serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 55px;
-  letter-spacing: 0.37px;
-  padding-top: 60px;
-}
+ .heading-1 {
+    color: #ff6b00;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.37px;
+    padding-top: 60px;
+ }
 
-.hambergur-button { padding: 50px; }
+ .hambergur-button { padding: 50px; }
 
-.text-content {
-  width: 480px;
-  margin-left: 80px;
-  margin-top: 150px;
-}
+ .text-content {
+    width: 480px;
+    margin-left: 80px;
+    margin-top: 150px;
+ }
 
-.social-links {
-  display: flex;
-  flex-direction: row;
-  margin-left: -52px;
-  margin-top: 20px;
-}
+ .social-links {
+    display: flex;
+    flex-direction: row;
+    margin-left: -52px;
+    margin-top: 20px;
+ }
 
 }
