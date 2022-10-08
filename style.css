@@ -192,9 +192,7 @@ body {
   transition: all 1s ease-in-out .3s;
 }
 
-.see-project:hover{
-  border-radius: 20px;
-}
+.see-project:hover { border-radius: 20px; }
 
 .main-content-3 {
   display: flex;
@@ -682,6 +680,7 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
+
   html,
   body {
     width: 100%;
