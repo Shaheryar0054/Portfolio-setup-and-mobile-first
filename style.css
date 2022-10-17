@@ -82,6 +82,11 @@ body {
   color: white;
 }
 
+.pages-links {
+  text-decoration: none;
+  color: white;
+}
+
 .menu-2 {
   padding: 20px;
   font-family: 'Inter', sans-serif;
