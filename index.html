@@ -5,26 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Desktop version</title>
+    <title>Shaheryar Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header class="toolbar">
-        <a href="#" class="logo">Shaheryar</a>
+        <a href="/index.html" class="logo">Shaheryar</a>
         <nav class="navbar">
+            <img src="img/Icon - Menu.svg" alt="hambergur-icon" class="burger" id="burger">
             <div id="hambergur-button">
                 <ul class="menu-1">
-                    <li class="menu-2"> <a class="pages-links" href="/index.html"> Portfolio</a></li>
-                    <li class="menu-2"> <a class="pages-links" href="/About.html">About</a></li>
-                    <li class="menu-2"> <a class="pages-links" href="/contact.html">contact</a></li>
+                    <li class="menu-2"> <a class="pages-links" href="#"> Portfolio</a></li>
+                    <li class="menu-2"> <a class="pages-links" href="#">About</a></li>
+                    <li class="menu-2"> <a class="pages-links" href="#">contact</a></li>
                 </ul>
-                <img src="img/Union.svg" alt="hambergur-icon" class="burger-1">
-                <img src="img/burger-icon.svg" alt="hambergur-icon" class="burger-2">
             </div>
         </nav>
+        <div class="mobile-menu hide" id="menu-id">
+            <button class="cross" id="cross-id">
+                    <img src="img/cross.svg" alt="cross">
+            </button>
+            <div class="mobile-menu-list">
+            <ul>
+                <li><a href="#main-content-2" class="menu-link">Portfolio</a></li>
+                <hr class="mobile-line">
+                <li><a href="#section-8" class="menu-link">About</a></li>
+                <hr class="mobile-line">
+                <li><a href="#form-container" class="menu-link">Contact</a></li>
+                <hr class="mobile-line">
+            </ul>
+            </div>
+            </div>    
     </header>
-    <main class="main-content">
+    <main class="main-content" id="main-content">
         <div class="text-content">
             <h1 class="heading-1">Hey There.
                 <br>
@@ -66,7 +80,7 @@
             </ul>
         </div>
     </main>
-    <section class="main-content-2">
+    <section class="main-content-2" id="main-content-2">
         <div class="heading-3">
             <h2 class="h-2">My Recent Works</h2>
             <hr id="h2-line">
@@ -167,7 +181,7 @@
             </div>
         </div>
     </section>
-    <section class="section-8">
+    <section class="section-8" id="section-8">
         <div class="about-page">
             <h2 class="about-me">About me</h2>
             <p class="about-paragraph">
@@ -276,6 +290,6 @@
             </li>
         </ul>
     </section>
+<script src="/main.js"></script>
 </body>
-
 </html>

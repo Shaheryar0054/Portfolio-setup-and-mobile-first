@@ -80,6 +80,8 @@ body {
   display: flex;
   list-style: none;
   color: white;
+  margin-bottom: 45px;
+  margin-right: 0;
 }
 
 .pages-links {
@@ -210,6 +212,11 @@ body {
 
 .content-3-h {
   padding: 41px;
+}
+
+.mobile-line {
+  width: 100%;
+  margin-left: -19px;
 }
 
 .paragraph-3 {
@@ -681,6 +688,10 @@ body {
   display: none;
 }
 
+.mobile-menu {
+  display: none;
+}
+
 @media only screen and (max-width: 800px) {
   html,
   body {
@@ -731,8 +742,51 @@ body {
     padding-top: 60px;
   }
 
-  .hambergur-button {
-    padding: 50px;
+  .mobile-menu {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: block;
+    background-color: #3c3a39;
+  }
+
+  .cross {
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+    width: 100%;
+    align-items: center;
+    height: 72px;
+    background-color: #3c3a39;
+  }
+
+  .mobile-menu-list a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .mobile-menu-list li {
+    margin-bottom: 10px;
+  }
+
+  .mobile-menu-list ul {
+    list-style-type: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
   }
 
   .text-content {
@@ -746,6 +800,10 @@ body {
     flex-direction: row;
     margin-left: -52px;
     margin-top: 20px;
+  }
+
+  .burger {
+    margin: 10px;
   }
 
   .heading-3 {
@@ -950,21 +1008,11 @@ body {
     align-items: center;
   }
 
-  .menu-1 {
-    display: none;
-  }
-
-  .burger-1 {
+  .menu1 {
     display: none;
   }
 
   #hambergur-button {
-    display: flex;
-    cursor: pointer;
-    margin: 44px;
-  }
-
-  .burger-2 {
-    display: flex;
+    display: none;
   }
 }
