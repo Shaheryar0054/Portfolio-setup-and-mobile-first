@@ -1202,4 +1202,9 @@ body {
     margin-top: 78px;
     margin-left: -22px;
   }
+
+  .pup_txt ul li {
+    font-size: 10px;
+  }
+
 }
