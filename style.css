@@ -765,8 +765,6 @@ body {
 .pupdesc {
   display: flex;
   flex-direction: column;
-  display: flex;
-  flex-direction: column;
   margin-top: 139px;
   margin-left: 29px;
 }
@@ -807,7 +805,7 @@ body {
 
 .see-live:hover {
   background-color: #ffe4b2;
-  color:#f55800;
+  color: #f55800;
   border: 1px solid #f55800;
 }
 
@@ -1197,13 +1195,10 @@ body {
     margin-top: -117px;
     margin-left: -24px;
   }
+
   .pupbtns {
     display: flex;
     column-gap: 16px;
-    margin-top: 93px;
-    margin-left: -22px;
-  }
-  .pupbtns {
     margin-top: 78px;
     margin-left: -22px;
   }
