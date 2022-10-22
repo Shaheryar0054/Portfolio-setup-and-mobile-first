@@ -210,8 +210,8 @@ body {
   background-position: center;
 }
 
-.content-3-h {
-  padding: 41px;
+.tech {
+  margin: 30px;
 }
 
 .mobile-line {
@@ -666,7 +666,7 @@ body {
   align-items: flex-end;
 }
 
-#see-project {
+.see-button {
   width: 369px;
   height: 58px;
   background-color: #f55800;
@@ -678,7 +678,7 @@ body {
   font-weight: 700;
 }
 
-#see-project:hover {
+.see-button:hover {
   background-color: #fff5e1;
   color: #f55800;
   border: 1px solid #f55800;
@@ -690,6 +690,163 @@ body {
 
 .mobile-menu {
   display: none;
+}
+
+.bck_win {
+  background-color: black;
+  opacity: 0.5;
+  backdrop-filter: blur(5px);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  inset: 0;
+}
+
+.modlpup {
+  display: flex;
+  background-color: #fff;
+  width: 1156px;
+  padding: 16px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 631px;
+  margin-left: 171px;
+  margin-top: 35px;
+}
+
+.modlpup h3 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #172b4d;
+}
+
+#cl_pup {
+  background-image: url(img/cross.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: transparent;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  width: 30px;
+  height: 20px;
+  color: gray;
+  border: none;
+  cursor: pointer;
+}
+
+.pup_txt ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  color: #3c3a39;
+}
+
+.pup_txt ul li {
+  padding: 10px 12px;
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  border: 1px solid rgb(137, 147, 164);
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.pupdesc {
+  display: flex;
+  flex-direction: column;
+  margin-top: 139px;
+  margin-left: 29px;
+}
+
+.pupdesc p {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #344563;
+  line-height: 30px;
+}
+
+.pupbtns {
+  display: flex;
+  column-gap: 16px;
+  margin-top: 270px;
+}
+
+.see-live {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  align-items: center;
+  background-color: #f55800;
+  width: 134px;
+  height: 48px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.see-live:hover {
+  background-color: #ffe4b2;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.see_live img {
+  width: 15px;
+  height: 15px;
+  margin-bottom: 2px;
+}
+
+.see-source {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  align-items: center;
+  background-color: #f55800;
+  width: 134px;
+  height: 48px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.see-source:hover {
+  background-color: #ffe4b2;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.see-source img {
+  width: 15px;
+  height: 15px;
+  margin-bottom: 2px;
+}
+
+.live-btn {
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 800px) {
@@ -1015,4 +1172,41 @@ body {
   #hambergur-button {
     display: none;
   }
+
+  .modlpup {
+    display: flex;
+    background-color: #fff;
+    margin: 50px 20px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 718px;
+    flex-direction: column;
+    width: auto;
+  }
+
+  .live-img {
+    width: 311px;
+  }
+
+  #cl_pup {
+    right: 0;
+    cursor: pointer;
+  }
+
+  .pupdesc p {
+    margin-top: -117px;
+    margin-left: -24px;
+  }
+
+  .pupbtns {
+    display: flex;
+    column-gap: 16px;
+    margin-top: 78px;
+    margin-left: -22px;
+  }
+
+  .see-button { width: 328px; }
 }
