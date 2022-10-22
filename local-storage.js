@@ -24,8 +24,3 @@ function fired() {
     msgBox.value = prsData.message;
   }
 }
-
-if (typeof (Storage) !== 'undefined') {
-  const btn = document.getElementById('formButton');
-  btn.addEventListener('click', fired);
-}
