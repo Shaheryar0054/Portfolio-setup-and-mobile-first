@@ -853,6 +853,10 @@ body {
   color: #e81414;
 }
 
+.live-btn {
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 800px) {
   html,
   body {
