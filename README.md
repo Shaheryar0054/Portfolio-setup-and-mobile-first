@@ -7,7 +7,6 @@
 
 - HTML and CSS
 - Git and github
-- javascript
 
 ## Live Demo (if available)
 # Sample-Project

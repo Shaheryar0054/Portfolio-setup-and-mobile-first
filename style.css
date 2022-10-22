@@ -210,8 +210,8 @@ body {
   background-position: center;
 }
 
-.content-3-h {
-  padding: 41px;
+.tech {
+  margin: 30px;
 }
 
 .mobile-line {
@@ -705,15 +705,16 @@ body {
 .modlpup {
   display: flex;
   background-color: #fff;
-  width: fit-content;
-  margin: 50px 20px;
+  width: 1156px;
   padding: 16px;
-  position: fixed;
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  height: max-content;
+  height: 631px;
+  margin-left: 171px;
+  margin-top: 35px;
 }
 
 .modlpup h3 {
@@ -783,7 +784,7 @@ body {
 .pupbtns {
   display: flex;
   column-gap: 16px;
-  margin-top: 299px;
+  margin-top: 270px;
 }
 
 .see-live {
@@ -842,6 +843,10 @@ body {
   width: 15px;
   height: 15px;
   margin-bottom: 2px;
+}
+
+.live-btn {
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 800px) {
@@ -1201,9 +1206,5 @@ body {
     column-gap: 16px;
     margin-top: 78px;
     margin-left: -22px;
-  }
-
-  .pup_txt ul li {
-    font-size: 10px;
   }
 }
