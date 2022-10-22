@@ -845,6 +845,14 @@ body {
   margin-bottom: 2px;
 }
 
+.errorMsg {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #e81414;
+}
+
 .live-btn {
   text-decoration: none;
 }

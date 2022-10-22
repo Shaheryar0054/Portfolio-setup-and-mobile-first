@@ -181,10 +181,12 @@
                             <input type="text" class="input" maxlength="30" name="name" placeholder="Last name"
                                 required>
                         </div>
-                        <input name="Email" class="input-2" type="email" placeholder="Email address" required>
+                        <input name="Email" class="input-2" id="email" type="email" placeholder="Email address" required>
                         <textarea name="message" id="text-1" rows="10" required maxlength="500"
                             placeholder="Enter text here"></textarea>
-                        <button type="submit" class="btn-form">Get in touch</button>
+                            <small class="errorMsg"></small>
+                            <button type="submit" class="btn-form" id="formButton" onclick="submitForm(event)"
+                            >Get in touch</button>
                     </form>
                 </div>
             </div>
@@ -221,5 +223,6 @@
 <script src="/main.js"></script>
 <script src="/popup.js"></script>
 <script src="/cards.js"></script>
+<script src="/validation.js"></script>
 </body>
 </html>
