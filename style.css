@@ -196,6 +196,7 @@ body {
   color: white;
   font-size: 20px;
   cursor: pointer;
+  transition: all 1s ease-in-out 0.3s;
 }
 
 .main-content-3 {
@@ -393,6 +394,7 @@ body {
   background-color: #fff5e1;
   color: #f55800;
   border: 1px solid #f55800;
+  border-radius: 20px;
 }
 
 .about-button:hover {
